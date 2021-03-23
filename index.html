@@ -2,10 +2,114 @@
 
 <head>
     <title>Practica 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Hola mundo</h1>
+    <div class="container mt-3">
+        <div class="fila">
+            <div class="columna1">
+                <div class="area-imagen">
+                    <div class="imagen"></div>
+                </div>
+                <div class="d-flex flex-column">
+                    <h2 class="d-flex justify-content-end text-muted" style="margin-top: 30%; margin-right: 5%;">Presentación</h2>
+                    <h2 class="d-flex justify-content-end text-muted " style="margin-top: 50%; margin-right: 5%;">Estudios</h2>
+                    <h2 class="d-flex justify-content-end text-muted " style="margin-top: 50%; margin-right: 5%;">Idiomas</h2>
+                    <h2 class="d-flex justify-content-end text-muted " style="margin-top: 30%; margin-right: 5%;">Conocimientos</h2>
+                    <h2 class="d-flex justify-content-end text-muted " style="margin-top: 70%; margin-right: 5%;">Cualidades</h2>
+                </div>
+            </div>
+            <div class="columna2">
+                <div class="content">
+                    <h1 class="float-md-none display-2">Jorge Antonio</h1>
+                    <h1 class="float-md-none display-1 apellidos">Pérez Ordóñez</h1>
+                    <h2 class="float-md-none display-6">Software Developer</h2>
+                    <div class="row personal-data">
+                        <div class="col-sm">
+                            <h3 class="text-muted data-title">Email</h3>
+                            jorgeperezlj@gmail.com
+                        </div>
+                        <div class="col-sm">
+                            <h3 class="text-muted data-title">Dirección</h3>
+                            2 ave. 45-59 zona 12
+                        </div>
+                        <div class="col-sm">
+                            <h3 class="text-muted data-title">Teléfono</h3>
+                            55908761
+                        </div>
+                        <div class="col-sm">
+                            <h3 class="text-muted data-title">Instagram</h3>
+                            antoniolj07
+                        </div>
+                    </div>
+                    <div class="apartado">
+                        <p class="intro-text">
+                            Soy Jorge Pérez y actualmente tengo 20 años. Nací y crecí toda mi vida en Guatemala y como cualquier guatemalteco, he visto y vivido la lamentable situación en la que se encuentra el país. Mi principal objetivo en mi vida profesional es ayudar a la sociedad
+                            guatemalteca a mejorar su calidad de vida, ya que es uno de nuestros derechos como seres humanos a vivir una vida digna sin falta de recursos básicos que cualquier persona necesita para sobrevivir. Guatemala necesita un cambio
+                            y no soporto la idea de quedarme de brazos cruzados sin hacer nada por mi gente. Por lo que me comprometo a hacer mi trabajo con orgullo y dedicación siempre y cuando mi trabajo beneficie a alguien que lo necesite.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush apartado">
+                        <li class="list-group-item">En desarrollo (4to semestre) <br> Ingeniería en Ciencias y Sistemas <br> Universidad de San Carlos de Guatemala
+                        </li>
+                        <li class="list-group-item">
+                            2017 - 2018 <br> Bachillerato en Ciencias y Letras <br> Liceo Javier
+                        </li>
+                    </ul>
+
+                    <ul style="margin-top: 10%; margin-left: -2%;">
+                        <li>Español</li>
+                        <li>Ingles</li>
+                    </ul>
+
+                    <div class="list-group apartado">
+                        <label class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" checked>
+                          Java
+                        </label>
+                        <label class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" checked>
+                          Python
+                        </label>
+                        <label class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" checked>
+                          JavaScript
+                        </label>
+                        <label class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" checked>
+                          TypeScript
+                        </label>
+                        <label class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" checked>
+                          Angular
+                        </label>
+                        <label class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" checked>
+                          Django
+                        </label>
+                    </div>
+
+                    <div class="list-group apartado">
+                        <a class="list-group-item list-group-item-action">Honestidad</a>
+
+                        <a class="list-group-item list-group-item-action list-group-item-primary">Emprendedor</a>
+                        <a class="list-group-item list-group-item-action list-group-item-secondary">Precavido</a>
+                        <a class="list-group-item list-group-item-action list-group-item-success">Responsable</a>
+                        <a class="list-group-item list-group-item-action list-group-item-warning">Aplicado</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,120 @@
+body {
+    background-color: #F4F6F6;
+}
+
+.columna1,
+.columna2 {
+    padding-top: 20%;
+}
+
+.fila {
+    margin-bottom: 2.5%;
+}
+
+.fila:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columna1 {
+    float: left;
+    width: 30%;
+}
+
+.columna2 {
+    float: left;
+    width: 70%;
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.apellidos {
+    color: #E74C3C;
+    font-weight: 600;
+    margin-top: -20px !important;
+}
+
+.area-imagen {
+    background-color: #E74C3C;
+    border-radius: 50%;
+    width: 50vh;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.imagen {
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    background-image: url(assets/foto3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: 5s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        background-image: url(assets/foto1.jpg);
+    }
+    20% {
+        background-image: url(assets/foto2.jpg);
+    }
+    40% {
+        background-image: url(assets/foto7.jpg);
+    }
+    60% {
+        background-image: url(assets/foto4.jpg);
+    }
+    80% {
+        background-image: url(assets/foto5.jpg);
+    }
+    100% {
+        background-image: url(assets/foto6.jpg);
+    }
+}
+
+.content {
+    padding-left: 10%;
+}
+
+.personal-data {
+    width: 92.5%;
+    margin-right: auto;
+    border-top: 2px solid gray;
+    margin-top: 10%;
+}
+
+.data-title {
+    font-size: calc(10px + 1vw);
+}
+
+.apartado {
+    margin-top: 10%;
+    width: 90%;
+}
+
+.intro-text {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: calc(5px + 0.7vw);
+}
+
+hr {
+    position: relative;
+    border-top: 10px solid rgb(231, 76, 60) !important;
+    width: 100%;
+    margin-top: 10%;
+}
